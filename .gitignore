@@ -1,7 +1,9 @@
-node_modules
+node_modules/
 .env
-build
-.cache
-.tmp
-uploads
+build/
+.cache/
+.tmp/
+uploads/
 *.log
+dist/
+Docker volumes
