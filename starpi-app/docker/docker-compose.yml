@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  starpi:
+    image: sareen/starpi:prod
+    container_name: starpi
+    ports:
+      - "1337:1337"
+    restart: always
+    environment:
+      NODE_ENV: production
